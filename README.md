@@ -1,9 +1,8 @@
 # document-QA
-Upload your personal documents and chat with them (ask questions)
-=======
-# RAG PDF Chatbot
 
-A Retrieval-Augmented Generation (RAG) web app for chatting with PDF documents using Flask, Sentence Transformers, FAISS, and OpenTelemetry for observability.
+Upload your personal documents and chat with them (ask questions).
+
+This is a Retrieval-Augmented Generation (RAG) web app for chatting with PDF documents using Flask, Sentence Transformers, FAISS, and OpenTelemetry for observability.
 
 ## Features
 - Upload and chat with PDF documents
@@ -34,3 +33,6 @@ README.md
 
 ## Setup
 See `docs/` for detailed setup and usage instructions.
+
+## Notes:
+OpenTelemetry has been disabled for now, but you can still access Prometheus, Loki, and Grafana. See the docs.
