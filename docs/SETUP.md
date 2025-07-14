@@ -9,7 +9,6 @@
 ## 1. Clone the Repository
 ```
 git clone <your-repo-url>
-cd rag-pdf-chatbot
 ```
 
 ## 2. Create and Activate a Virtual Environment
