@@ -1,0 +1,13 @@
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f7f7; }
+.container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 2em; }
+h1 { text-align: center; color: #2c3e50; }
+.tabs { display: flex; justify-content: center; margin-bottom: 1em; }
+.tab-btn { background: #e0e0e0; border: none; padding: 0.7em 2em; margin: 0 0.2em; border-radius: 5px 5px 0 0; cursor: pointer; font-weight: bold; }
+.tab-btn.active { background: #3498db; color: #fff; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+#progressBar { width: 100%; height: 20px; }
+#chatHistory { margin-top: 1em; background: #f4f8fb; border-radius: 6px; padding: 1em; min-height: 120px; }
+.citation { background: #eaf6ff; border-left: 3px solid #3498db; margin: 0.5em 0; padding: 0.5em; border-radius: 4px; font-size: 0.95em; }
+.user-msg { color: #2c3e50; font-weight: bold; }
+.bot-msg { color: #16a085; }
