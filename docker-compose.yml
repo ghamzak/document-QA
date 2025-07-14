@@ -3,9 +3,12 @@ services:
   app:
     build: .
     ports:
-      - "5000:5000"
+      - "5050:5000"
     env_file:
       - .env
+    environment:
+      - OTEL_TRACES_EXPORTER=none
+      - OTEL_METRICS_EXPORTER=none
     volumes:
       - .:/app
     depends_on:

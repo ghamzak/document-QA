@@ -3,6 +3,7 @@ from flask_cors import CORS
 import os
 
 def create_app():
+
     app = Flask(__name__)
     app.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'app', 'static', 'uploads')
     app.secret_key = os.environ.get('SECRET_KEY', 'dev')

@@ -4,13 +4,7 @@ sentence-transformers
 faiss-cpu
 PyPDF2
 openai
-opentelemetry-api
-opentelemetry-sdk
-opentelemetry-instrumentation-flask
-opentelemetry-exporter-otlp
-opentelemetry-instrumentation-requests
 prometheus_client
-grafana-opentelemetry-collector
 python-dotenv
 pytest
 requests
