@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # document-QA
 Upload your personal documents and chat with them (ask questions)
 =======
@@ -35,4 +34,3 @@ README.md
 
 ## Setup
 See `docs/` for detailed setup and usage instructions.
->>>>>>> b97f784 (local app initial commit)
